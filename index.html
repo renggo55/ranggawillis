@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portofolio Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="profil">
+        <h2>Profil</h2>
+        <p>Nama: Rangga Willis Saputra npm(23670166) 3C Informatika</p>
+        <p>Deskripsi: saya adalah mahasiswa dari Universitas PGRI Semarang prodi teknik Informatika.</p>
+    </section>
+
+    <section id="galeri">
+        <h2>Galeri</h2>
+        <div class="gallery">
+            <img src="gambar 1.jpg" alt="Gambar 1">
+            <img src="gambar 1.jfif" alt="Gambar 2">
+            <img src="gambar 2.jfif" alt="Gambar 3">
+        </div>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <form id="contactForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Pesan:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+        <div id="responseMessage"></div>
+    </section>
+
+    <footer>
+        <p>&copy; Rangga 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
